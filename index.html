@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="bienvenido">
+    <h1 id="bienvenido">BIENVENIDO</h1>
+    <br>
+    <h2>Decinos tu nombre (es super importante) </h2>
+</div>
+<div class="input_nombre">
+<input id="nombre" type="text">
+<button id="enviar" onclick="enviar()">enviar</button>
+   
+</div>
+
+
+<hr>
+    <h1>Dinos... a que concierto te gustaria ir?</h1>
+<div class="contenedor">
+    <div class="img-text">
+     <img class="imagenes" src="https://es.concerts-metal.com/images/flyers/202206/1654254674.jpeg" alt=""><br>
+     <button class="botones1" id="bullet" onclick="comprar_B()" ><strong>Agregar al carro</strong></button>
+    </div>
+    <div class="img-text">
+   <img class="imagenes" src="img/FiqLX3IVQAAA5yS-760x760.jpeg" alt=""><br>
+   <button class="botones1" id="metallica" onclick="comprar_M()" ><strong>Agregar al carro</strong></button>
+    </div>
+    <div class="img-text">
+   <img class="imagenes" src="img/images.png" alt=""><br>
+   <button class="botones1" id="ff" onclick="comprar_ff()" ><strong>Agregar al carro</strong></button>
+    </div>
+</div>
+
+<hr>
+
+<footer>
+    <div class="comentario">
+        <h2>Danos tu opinion OwO</h2>
+<textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+<br>
+<button id="boton2" onclick="agregarComentario()">Agregar Comentario</button>
+<div id="contenedor-comentarios"></div>
+        
+    </div>
+<hr>
+
+<h1 id="gracias"><strong>Gracias por su visita</strong></h1><br>
+<h1 id="gracias"><strong>No piense que le vayamos a pagar algo muchas gracias</strong></h1><br>
+
+</footer>
+
+</body>
+
+</html>

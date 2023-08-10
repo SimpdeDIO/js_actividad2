@@ -1,0 +1,132 @@
+body{
+    background-color: pink;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.bienvenido {
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#enviar{
+    height: 30px;
+    margin-left: 5px;
+    padding: 10px 15px;
+    
+}
+
+.input_nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nombre{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+   
+}
+
+#bienvenido{
+    font-size: 80px;
+}
+
+.contenedor{
+    display: flex;
+    margin-left: 35px ;
+    justify-content: center;
+   
+}
+
+.imagenes{
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.botones1{
+    margin-top: 20px;
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor:pointer;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+#bullet{
+    background-color: black;
+    color: white;
+}
+
+#metallica{
+    background-color: yellow;
+    color: black;
+}
+
+#ff{
+    background-color: black;
+    color: brown;
+}
+
+#ff:hover, #metallica:hover, #bullet:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.column{
+    flex: 1;
+    height: 320px;
+}
+
+.comentario 
+	{
+		
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+#boton2{
+    margin-top: 20px;
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: 0.5s;
+    font-size: 15px;
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+#comentario{
+    width: 500px;
+    height: 80px;
+    background-color: gainsboro;
+
+}
+
+
+#gracias{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+#contenedor-comentarios{
+    background-color: gainsboro;
+    margin-top: 10px;
+    
+}
